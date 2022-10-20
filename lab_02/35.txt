@@ -1,0 +1,16 @@
+35
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main() {
+    int num1, num2, num3;
+    float hipotenusa;
+    printf("Insira o primeiro valor: ");
+    scanf("%d", &num1);
+    printf("Insira o segundo valor: ");
+    scanf("%d", &num2);
+    hipotenusa = sqrt((num1* num1) + (num2* num2));
+    printf("A hipotenusa dos valores eh: %.2f", hipotenusa);
+
+    return 0;
+}

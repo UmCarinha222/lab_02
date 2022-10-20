@@ -1,0 +1,14 @@
+32
+#include <stdio.h>
+int main()
+{
+    int N1, N2, N3, N, S, A, Soma;
+printf(" Digite um numero: ");
+    scanf("%d",&N);
+    S=N*3+1;
+    A=N*2-1;
+    Soma=S+A;
+    printf(" O sucessor do triplo do numero %d e %d e o antecessor do seu dobro eh: %d\n",N,S,A);
+    printf(" A soma do sucessor com o antecessor eh: %d ",Soma);
+    return 0;
+}

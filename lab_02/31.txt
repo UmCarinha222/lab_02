@@ -1,0 +1,14 @@
+31
+
+#include <stdio.h>
+int main() {
+  int N, Ant, Suce;
+  printf("Informe  um numero inteiro: ");
+  scanf("%d", &N);
+  Ant = N - 1;
+  Suce = n + 1;
+  printf("%d antecessor\n", Ant);
+  printf("%d valo\n", n);
+  printf("%d sucessor\n", Suce);
+  return(0);
+}

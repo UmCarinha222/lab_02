@@ -1,0 +1,15 @@
+42
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    float salb;
+    printf("Insira seu salario: R$");
+    scanf("%f", &salb);
+    float gratificacao, imposto, saltot;
+    gratificacao = salb * 0.05;
+    imposto = salb * 0.07;
+    saltot = salb + gratificacao - imposto;
+    printf("\nSalario a receber eh: R$%.2f", saltot);
+    return 0;
+}

@@ -1,0 +1,13 @@
+30
+
+#include <stdio.h>
+int main() {
+    float VR, VD;
+
+    printf("Digite o valor em reais a ser convertido: ");
+    scanf("%f", &VR);
+
+    VD = VR / 5.3;
+    printf("Valor em dolar $%.2f\n", VD);
+    return 0;
+}

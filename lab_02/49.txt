@@ -1,0 +1,20 @@
+49
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+   int seg, min, hora, dura, n1, n2, n3;
+   printf("Digite as horas: ");
+   scanf("%d", &n1);
+    printf("Digite as minutos: ");
+   scanf("%d", &n2);
+    printf("Digite as segundos: ");
+   scanf("%d", &n3);
+   printf("Digite a duração em segundos: \n");
+   scanf("%d", &dura);
+
+   seg = dura; hora = seg/3600; seg = seg%3600; min = seg/60; seg = seg %60;
+   printf("%d:%d:%d", n1+hora, n2+min, n3+seg);
+    return 0;
+}

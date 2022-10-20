@@ -1,0 +1,14 @@
+39
+#include <stdio.h>
+void main()
+{
+  float premio, ganhador1, ganhador2, ganhador3;
+  premio = 780.000;
+  ganhador1 = premio * 0.46;
+  ganhador2 = premio * 0.32;
+  ganhador3 = premio - (ganhador1 + ganhador1);
+  printf("A recompensa do primeiro lugar eh: R$ %f \n", ganhador1);
+  printf("A recompensa do segundo lugar eh: R$ %f \n", ganhador2);
+  printf("A recompensa do terceiro lugar eh: R$ %f \n", ganhador3);
+  return 0;
+}
